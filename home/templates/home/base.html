@@ -2,21 +2,22 @@
 <!DOCTYPE html>
 <html lang="en">
     {% include 'home/head.html' %}
-<body>
+    <body>
 
-    {% block nav %} {% endblock nav %}
-    {% block hero %} {% endblock hero %}
-    {% block services %} {% endblock services %}
-    {% block exports %} {% endblock exports %}
-    {% block imports %} {% endblock imports %}
-    {% block logistics %} {% endblock logistics %}
-    {% block it-services %} {% endblock it-services %}
-    {% block team %} {% endblock team %}
-    {% block blog %} {% endblock blog %}
-    {% block partners %} {% endblock partners %}
-    {% block contact %} {% endblock contact %}
-    {% block footer %} {% endblock footer %}
-    
-    {% include 'home/js.html' %}
-</body>
+        {% block nav %} {% endblock nav %}
+        {% block content %} {% endblock content %}
+        {% block hero %} {% endblock hero %}
+        {% block services %} {% endblock services %}
+        {% block exports %} {% endblock exports %}
+        {% block imports %} {% endblock imports %}
+        {% block logistics %} {% endblock logistics %}
+        {% block it-services %} {% endblock it-services %}
+        {% block partners %} {% endblock partners %}
+        {% block team %} {% endblock team %}
+        {% block posts %} {% endblock posts %}    
+        {% block form %} {% endblock form %}
+        {% block footer %} {% endblock footer %}
+        
+        {% include 'home/js.html' %}
+    </body>
 </html>

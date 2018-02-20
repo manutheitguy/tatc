@@ -17,11 +17,11 @@ from django.conf import settings
 from django.conf.urls import url, include
 from django.conf.urls.static import static
 from django.contrib import admin
+from home import views
 
 urlpatterns = [
     url(r'^', include('home.urls')),
     url(r'^admin/', admin.site.urls),
-    url(r'^blog/', include('home.urls')),
 ]
 
 # if settings.DEBUG:

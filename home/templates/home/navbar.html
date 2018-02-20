@@ -12,10 +12,10 @@
 
         <nav class="wsmenu clearfix">
           <ul class="mobile-sub wsmenu-list">
-            <li><a href="#" class="active"><i class="fas fa-home"></i><span class="hometext">&nbsp;&nbsp;Home</span></a></li>
+            <li {% if request.path == index %} class="active" {% endif %}><a href="{% url 'index' %}"><i class="fas fa-home"></i><span class="hometext">&nbsp;&nbsp;Home</span></a></li>
             
 
-            <li><a href="#"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;Trading </a>
+            <li><a href="#">Trading </a>
               <div class="megamenu clearfix">
                 <div class="container-fluid">
                   <div class="row">
@@ -57,7 +57,7 @@
                     </ul>
 
                     
-              <li><a href="#"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;Logistics </a>
+              <li><a href="#">Logistics </a>
               <div class="megamenu clearfix">
                 <div class="container-fluid">
                   <div class="row">
@@ -100,9 +100,58 @@
                       <a href="#"><li class="col-xs-12 cta-btn">LEARN MORE <i class="fas fa-angle-right"></i></li></a>
                     </ul>
  
-            
+        <li>
+          <a href="#">Products </a>
+          <div class="megamenu clearfix">
+            <div class="container-fluid">
+              <div class="row">
 
-            <li><a href="#"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;IT Products &amp; Services </a>
+                <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
+                  <li class="title">Software Products</li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Microsoft Windows</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Microsoft Server</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> iVend Retail Solution</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> PRTG Network Monitor</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Kaspersky Antivirus</a></li>
+                </ul>
+        
+                <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
+                  <li class="title">Hardware Products</li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Laptop Computers</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Desktop CPUs</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Desktop Monitors</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Printers</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Server Infrastructure</a></li>
+                </ul>
+        
+                <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
+                  <li class="title">Software Services</li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Software Development</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Internet Marketing</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Search Engine Optimization</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Web Hosting</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Business Process Automation</a></li>
+                </ul>
+        
+                <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
+                  <li class="title">Hardware Services</li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Server Configuration</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Network Configuration</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> CCTV Installation</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Access Control Installation</a></li>
+                  <li><a href="#"><i class="fas fa-angle-right"></i> Tech Consultancy</a></li>
+                </ul>
+        
+                <ul class="col-lg-12 col-md-12 col-sm-12 cta-ul">
+                  <a href="#">
+                    <li class="col-xs-12 cta-btn">LEARN MORE
+                      <i class="fas fa-angle-right"></i>
+                    </li>
+                  </a>
+                </ul>
+
+
+          <li><a href="#">Services </a>
             <div class="megamenu clearfix">
               <div class="container-fluid">
                 <div class="row">
@@ -146,32 +195,37 @@
                       <a href="#"><li class="col-xs-12 cta-btn">LEARN MORE <i class="fas fa-angle-right"></i></li></a>
                     </ul>
 
-            <li><a href="#"><i class="far fa-envelope"></i>&nbsp;&nbsp;Contact Us </a>
-              <div class="contact-mb megamenu halfdiv clearfix">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <h3 class="title">Contact Us</h3>
-                      <form name="contact_name" class="menu_form">
-                        <input type="text" placeholder="Name">
-                        <input type="text" placeholder="Email">
-                        <textarea placeholder="Your message..."></textarea>
-                        <input type="button" value="Reset">
-                        <input type="submit" value="Send">
-                      </form>
+                <li>
+                  <a href="{% url 'about' %}">
+                    About Us 
+                  </a>
+                </li>
+
+                <li><a href="{% url 'contact' %}">Contact Us </a>
+                  <!-- <div class="contact-mb megamenu halfdiv clearfix">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <h3 class="title">Contact Us</h3>
+                          <form name="contact_name" class="menu_form">
+                            <input type="text" placeholder="Name">
+                            <input type="text" placeholder="Email">
+                            <textarea placeholder="Your message..."></textarea>
+                            <input type="button" value="Reset">
+                            <input type="submit" value="Send">
+                          </form>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              <div class="cl"></div>
-            </div>
-          </li>
-        </ul>
-      </nav>
+                  <div class="cl"></div>
+                </div> -->
+              </li>
+            </ul>
+          </nav>
 
-        <!--End Menu HTML Code-->
+            <!--End Menu HTML Code-->
 
+      </div>
+    </div>
   </div>
-</div>
-
-</div>
 </div>

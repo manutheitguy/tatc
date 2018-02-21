@@ -1,7 +1,7 @@
 /*=== Text color ===*/
 a:hover, a:focus,
 .boxed-menu .topbar i, .home-feature .feature_single .icon, .more-feature-left .feature-icon, .countup-section .counter, .countup-section span.count,
-.services-area .media-box .media-icon, .services2 .media-box .media-icon, .card .card-title:hover, .team-card a.overlay_icon:hover i.fa, .links li a:hover, .links li a:hover:before,
+.services-area .media-box .media-icon, .services2 .media-box .media-icon, .card .card-title:hover, .team-card a.overlay_icon:hover i.fa, i.fas, i.far, .links li a:hover, .links li a:hover:before,
 .bredcrumb .pager.middle a, .project-details .styled_list i,
 .member_desc li i,
 .page-error .error h1,
@@ -16,7 +16,7 @@ ul.nav .nav-item.active .nav-link,
 .pricing_image-card .circle span.price, .pricing .circle .price, i.overlay-icon,
 .icon_tabs .nav-item a.nav-link:hover .fa, .icon_tabs .nav-item a.nav-link.active .fa,
 .slider-caption .caption-content i.play-icon {
-  color: #23479B;
+  color: #23479B !important;
 }
 
 .text-primary, a.text-primary:focus, a.text-primary:hover {
@@ -76,7 +76,7 @@ ul.nav-tabs.no-bg .nav-item .nav-link.active, ul.nav-tabs.nav-pills .nav-item .n
 }
 
 .hover-overlay.effect-transformY {
-  background-color: rgba(74, 200, 237, 0.8);
+  background-color: rgba(35, 71, 155, 0.8);
 }
 
 /*=== Border color ===*/

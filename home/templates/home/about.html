@@ -3,14 +3,24 @@
 {% block nav %}{% include 'home/navbar.html' %}{% endblock nav %}
 {% block content %}
 <!-- About Trans-Atlantic -->
-<section class="more-feature portfolio sections bordered mt-5">
+<section class="more-feature mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10 offset-md-1">
                 <div class="more-feature-left">
-                    <div class="sectionTitle text-center">
+                    <div class="head_title text-center">
                         <h2>About Trans-Atlantic</h2>
                         <p>The Trans-Atlantic Trading company is a multi-faceted company that was formed to respond to needs in the imports and exports of high demand products and commodities, provision of IT Services as well as general supplies.</p>
+                    </div>
+                    <div class="more-features">
+                        <div class="">
+                            <h2>Trading Department</h2>
+                            <p>
+                             The Trading Department addresses a gap in the marketplace both locally and overseas with respect to imports and exports.
+                            Equipped with and effective and dedicated team, we are able to supply large quantities of quality produce and products expeditiously,
+                            efficiently and at competitive prices.
+                            </p>
+                        </div>
                     </div>
                     <div class="more-features">
                         <div class="feature-icon">
@@ -30,25 +40,121 @@
                             <p>Our imports include: Cement, Sugar, Petroleum and Petroleum Products, Industrial Chemicals and Machinery, Pharmaceuticals and Medical Equipment, High Demand Processed Foods among others.</p>
                         </div>
                     </div>
+                    
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<section class="more-feature portfolio sections bordered">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="more-feature-left">
+                    <div class="head_title text-center">
+                        <h2>Logistics Department</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm temp</p>
+                    </div>
                     <div class="more-features">
                         <div class="feature-icon">
-                            <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+                            <i class="fas fa-list-alt" aria-hidden="true"></i>
                         </div>
                         <div class="feature-details">
-                            <h4>Other Services</h4>
-                            <p>The Trans-Atlantic’s IT Department is strategically positioned as an all-under-one-roof solutions provider. We provide innovative, effective, timely and affordable products and solutions of the highest quality in reference to performance, scalability, and security, to clients from diverse sectors of the economy worldwide.
-                            </p>
+                            <h4>Deep Customization Process</h4>
+                            <p>Lorem ipsum dolor sit amet constur adipisicing elit, sed do eius mtempor incid dolore magna aliqu.</p>
+                        </div>
+                    </div>
+                    <div class="more-features">
+                        <div class="feature-icon">
+                            <i class="fa fa-industry" aria-hidden="true"></i>
+                        </div>
+                        <div class="feature-details">
+                            <h4>Industry Specialization</h4>
+                            <p>Lorem ipsum dolor sit amet constur adipisicing elit, sed do eius mtempor incid dolore magna aliqu.</p>
+                        </div>
+                    </div>
+                    <div class="more-features">
+                        <div class="feature-icon">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                        </div>
+                        <div class="feature-details">
+                            <h4>Unique Sales Methodoligies</h4>
+                            <p>Lorem ipsum dolor sit amet constur adipisicing elit, sed do eius mtempor incid dolore magna aliqu.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-md-6 mt-5 pt-5">
-                <div class="img-fluid">
-                    <img src="{% static 'home/images/l1.jpg' %}" alt="logistics">
+            <div class="col-md-6 img-fluid">
+                <div class="row">
+                <img class="img-fluid" src="{% static 'home/images/l1.jpg' %}" alt="">
                 </div>
-            </div> -->
+            </div>
         </div>
     </div>
+</section>
+<section id="business">
+    <div class="container mt-5 mb-5">
+        <div class="head_title text-center">
+            <h2>IT Department</h2>
+            <p>
+                Our vision is to become a globally recognized brand in cross-border trading of high demand commodties, provision of cost
+                effective IT services as well as general supplies and logistics
+            </p>
+        </div>
+
+        <!-- Example row of columns -->
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-wrapper2 text-center">
+                <a href="#">
+                    <div>
+                        <div class="community-edition">
+                            <i class="fab fa-python fa-3x"></i>
+                            <h4>Software As a Service</h4>
+                            <p class="lead">
+                                Our commercial division addresses a gap in the marketplace internally and overseas a reliable trading partner able to supply
+                                large quantities of quality produce and product at competitive prices
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-wrapper2 text-center">
+                <a href="#">
+                    <div>
+                        <div class="community-edition">
+                            <i class="fas fa-server fa-3x"></i>
+                            <h4>System Installations</h4>
+                            <p class="lead">
+                                We provide general supplies to a wide range of corporate bodies and entities, private sectors, NGOs, parastatals and government
+                                ministries, internatonal organizations and other institutions
+                            </p>
+                        </div>
+                        <!-- ./Community Edition -->
+                    </div>
+                    <!-- ./Community Edition -->
+                </a>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 portfolio-wrapper2 text-center">
+                <div>
+                    <div class="community-edition">
+                        <i class="fas fa-desktop fa-3x"></i>
+                        <h4>Computer Hardware</h4>
+                        <p class="lead">
+                            With a passion for excellence, we provide innovative and affordable solutions of the highest quality in terms of perfomance,
+                            scalability and security to clients from diverse sectors of the economy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- /container -->
 </section>
 {% endblock content %}
 {% block footer %}{% include 'home/footer.html' %}{% endblock footer %}

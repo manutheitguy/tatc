@@ -3465,8 +3465,8 @@ button.slick-arrow {
   line-height: 80px;
   text-align: center;
   position: relative;
-  margin-bottom: 0px;
-  font-size: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
   color: #0074BB;
 }
 
@@ -3606,8 +3606,8 @@ button.slick-arrow {
 --> 5.4 PORTFOLIO SECTION
 ================================================*/
 .portfolio-area {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (min-width: 992px) {
@@ -5467,8 +5467,4 @@ PROJECTS PAGE STYLE
   margin-top: -7px;
   margin-left: -6px;
   text-decoration: none;
-}
-
-i {
-  color: #23479B !important;
 }

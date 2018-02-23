@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-weight: 600 !important;
   color: #ffffff !important;
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.1;
 }
 
@@ -3106,7 +3106,7 @@ button.slick-arrow {
 }
 
 .testimonial-area .bg-image .card-block h4 {
-  font-size: 17px;
+  font-size: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3148,13 +3148,13 @@ button.slick-arrow {
 }
 
 .team-card a.overlay_icon {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   background-color: transparent;
   border: 2px solid #ffffff;
 }
 
-.team-card a.overlay_icon i.fa {
+.team-card a.overlay_icon i.fab {
   font-size: 15px;
   line-height: 40px;
   color: #ffffff;
@@ -3165,7 +3165,7 @@ button.slick-arrow {
   border: 2px solid #ffffff;
 }
 
-.team-card a.overlay_icon:hover i.fa {
+.team-card a.overlay_icon:hover i.fab {
   color: #0074BB;
 }
 

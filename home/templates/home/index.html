@@ -1,7 +1,6 @@
 {% extends 'home/base.html' %}
-
 {% load static %}
-
+{% block preloader %}{% include 'home/preloader.html' %}{% endblock preloader %}
 {% block nav %}{% include 'home/navbar.html' %}{% endblock nav %}
 {% block hero %}{% include 'home/hero.html' %}{% endblock hero %}
 {% block services %}{% include 'home/services.html' %}{% endblock services %}

@@ -21,8 +21,10 @@ from home import views
 
 urlpatterns = [
     url(r'^', include('home.urls')),
+    url(r'^articles/', include('articles.urls')),
     url(r'^admin/', admin.site.urls),
 ]
 
-# if settings.DEBUG:
-#     urlpatterns += static(settings.STATIC_URL, document_root=STATIC_ROOT)
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

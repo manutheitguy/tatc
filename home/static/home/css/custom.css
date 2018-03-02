@@ -54,7 +54,7 @@
 /*============ TEXT COLOR VARIATION =============*/
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Open+Sans:400,400i,600"); */
 .text-primary {
-  color: #0074BB !important;
+  color: #23479B !important;
 }
 
 .text-white {
@@ -143,7 +143,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #2e2e2e !important;
   line-height: 1.1;
 }
@@ -160,7 +160,7 @@ h4 {
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 1.1;
 }
 
@@ -201,9 +201,9 @@ h6 {
 }
 
 a {
-  color: #848484;
+  color: #23479B !important;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out !important;
 }
 
 a i {
@@ -214,7 +214,7 @@ a i {
 
 a:hover, a:focus {
   outline: 0;
-  color: #0074BB;
+  color: #fff !important;
   text-decoration: none;
 }
 
@@ -250,7 +250,7 @@ a:hover, a:focus {
 
 @media (min-width: 992px) {
   .boxed {
-    padding: 0px 0 0;
+    padding: 0;
     max-width: 970px;
   }
 }
@@ -538,17 +538,17 @@ a:hover, a:focus {
 }
 
 .hover-overlay a.overlay_icon {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   background: #fff;
   position: relative;
   display: inline-block;
   border-radius: 50%;
-  margin: 3px;
   text-align: center;
 }
 
 .hover-overlay a.overlay_icon i.fab {
+  text-align: center !important;
   font-size: 20px;
   line-height: 50px;
   color: #23479B;
@@ -1017,7 +1017,7 @@ hr.hr-inline {
   border-radius: 0px;
   height: 40px;
   padding: 0 20px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 40px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1028,7 +1028,7 @@ hr.hr-inline {
 
 @media (min-width: 992px) {
   .btn {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -1046,11 +1046,12 @@ hr.hr-inline {
 }
 
 .btn-primary {
-  background-color: #0074BB;
-  border: 1px solid #0074BB;
+  background-color: #23479B;
+  border: 1px solid #23479B;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.active, .btn-primary:active {
+  color: #fff !important;
   background-color: #0074BB !important;
   border: 1px solid #0074BB !important;
 }
@@ -2186,6 +2187,7 @@ card
 }
 
 .card .card-title {
+  color: #848484 !important;
   margin: 0px;
   padding: 15px 0 10px;
   transition: all 0.3s ease;
@@ -2196,6 +2198,7 @@ card
 }
 
 .card .card-block {
+  color: #848484 !important;
   padding: 10px 0 0;
 }
 
@@ -3663,16 +3666,13 @@ button.slick-arrow {
 }
 
 .portfolio-area .hover-overlay.effect-scale:before {
-  background-color: rgba(10, 35, 59, 0.9);
+  background-color: rgba(35, 71, 155, 0.7);
 }
 
 .portfolio-area a.btn:hover {
   color: #ffffff;
 }
 
-/*==============================================
---> 5.5 VIDEO + TESTIMONIAL SECTION
-================================================*/
 /*==============================================
 --> 5.6 OUR SERVICES
 ================================================*/
@@ -4124,7 +4124,7 @@ footer {
 }
 
 .footer .social-icons .btn-social-o {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
   color: #ffffff;
   font-size: 14px;
 }
@@ -4144,7 +4144,7 @@ footer {
 }
 
 .footer .social-icons .btn-social-o:hover {
-  color: #222222;
+  color: #fff;
 }
 
 .footer .instagram ul {
@@ -4212,7 +4212,7 @@ footer {
   color: #ffffff;
   margin-top: 15px;
   font-size: 14px;
-  padding-left: 25px;
+  padding-left: 10px;
 }
 
 @media (min-width: 768px) {
@@ -4236,7 +4236,7 @@ footer {
 }
 
 .location ul li a:hover {
-  color: #848484;
+  color: #F78F22;
 }
 
 .location ul li i {
@@ -4825,7 +4825,7 @@ PROJECTS PAGE STYLE
 }
 
 .project-details .bg-image:before {
-  background-color: rgba(10, 35, 59, 0.85);
+  background-color: rgba(35, 71, 155, 0.85);
 }
 
 .project-details h2, .project-details h4 {
@@ -4996,7 +4996,7 @@ PROJECTS PAGE STYLE
   background-color: transparent;
   border: 1px solid;
   border-color: #999999;
-  color: #dae0e6;
+  color: #23479B;
 }
 
 .member_contact .social-icons .btn:hover {
@@ -5412,8 +5412,8 @@ PROJECTS PAGE STYLE
   color: #fff;
 }
 
-.community-edition i {
-  color: #23479B;
+.community-edition i .fas {
+  color: #23479B !important;
   margin-bottom: 20px;
 }
 
@@ -5467,8 +5467,4 @@ PROJECTS PAGE STYLE
   margin-top: -7px;
   margin-left: -6px;
   text-decoration: none;
-}
-
-i {
-  color: #23479B !important;
 }

@@ -6,8 +6,10 @@
         <div class="row justify-content-center">
             <div class="col-sm-8">
                 <div class="sectionTitle text-center">
-                    <h2>Our Blog</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm temp</p>
+                    <h2><a class="text-dark" href="{% url 'articles:list' %}">Latest Articles</a></h2>
+                    <p>
+                        Learn more about the Kenya's biggest exports, trading, logistics, technology and busines in general.
+                    </p>
                 </div>
             </div>
         </div>
@@ -117,7 +119,11 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div>          
         </div>
+      
+            <div class="container btn-container mt-4  ml-auto text-center">
+                <a href="{% url 'articles:list' %}" class="btn btn-default bg-blue bold text-white">Learn More</a>
+            </div>
     </div>
 </section>

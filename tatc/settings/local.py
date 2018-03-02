@@ -25,18 +25,21 @@ SECRET_KEY = 'w&t_s7cy5kph1(f6eqm3-wu1g5t+n9g16@ijbgeg=otb3i_9qn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'tatc.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'tatc.herokuapp.com']
 
 # Application definition
 
 INSTALLED_APPS = [
-    'home',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    #MyApps
+    'home',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -139,15 +142,13 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
 
-STATIC_ROOT = os.path.join(BASE_DIR, "live-static-files", "static-root")
+STATIC_ROOT = os.path.join(BASE_DIR, "static-root")
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-#STATIC_ROOT = "/home/cfedeploy/webapps/cfehome_static_root/"
-
 MEDIA_URL = "/media/"
 
-MEDIA_ROOT = os.path.join(BASE_DIR, "live-static-files", "media-root")
+MEDIA_ROOT = os.path.join(BASE_DIR, "media-root")
 
 CORS_REPLACE_HTTPS_REFERER = False
 HOST_SCHEME = "http://"

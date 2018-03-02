@@ -1,0 +1,25 @@
+{% extends 'home/base.html' %} 
+{% load static %} 
+{% block preloader %}{% include 'home/preloader.html' %}{% endblock preloader %} 
+{% block nav %}{% include 'home/navbar.html' %}{% endblock nav %} 
+
+{% block content %} 
+<div class="container mt-5 mb-5 pt-5">
+    <div class="article-detail mt-5">
+        <div class="article">
+            <img class="img-fluid" src="{{ article.thumb.url }}" alt="">
+            <div class="pb-2">
+                <h2>{{ article.title }}</h2>
+            </div>
+            <div>
+                <p>{{ article.body }}</p>
+            </div>
+            <div>
+                <p>{{ article.date }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock content %} 
+
+{% block footer %}{% include 'home/footer.html' %}{% endblock footer %}

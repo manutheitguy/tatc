@@ -11,7 +11,5 @@ def about(request):
 def services(request):
     return render(request, 'home/services.html')
 
-
 def contact(request):
     return render(request, 'home/contact.html')
-

@@ -397,12 +397,12 @@ a:hover, a:focus {
 
 ::-moz-selection {
   background-color: #0074BB;
-  color: #0074BB;
+  color: #ffffff;
 }
 
 ::selection {
   background-color: #0074BB;
-  color: #0074BB;
+  color: #ffffff;
 }
 
 .bg-sand {
@@ -3470,7 +3470,7 @@ button.slick-arrow {
   position: relative;
   margin-bottom: 0px;
   font-size: 20px;
-  color: #23479B;
+  color: #0074BB;
 }
 
 @media (min-width: 768px) {

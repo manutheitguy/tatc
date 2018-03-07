@@ -94,9 +94,9 @@ html, * {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 21px;
-  color: #848484;
+  color: #555555;
   font-weight: 400;
 }
 
@@ -110,22 +110,22 @@ ul li {
 }
 
 p {
-  color: #848484;
+  color: #555555;
   font-weight: 400;
   margin-bottom: 0;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 31.5rem) {
   p {
-    font-size: 15px;
-    line-height: 28px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
   }
 }
 
 @media (min-width: 768px) {
   p {
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
   }
 }
 
@@ -138,34 +138,34 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-weight: 600 !important;
   color: #ffffff !important;
-  font-size: 3rem;
+  font-size: 3.2rem;
   line-height: 1.1;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #2e2e2e !important;
   line-height: 1.1;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #fff !important;
   line-height: 1.1;
 }
 
 h4 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.1;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.1;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 1.1;
 }
 
@@ -237,7 +237,7 @@ a:hover, a:focus {
 
 @media (min-width: 480px) {
   .boxed {
-    max-width: 520px;
+    max-width: 51.5rem;
   }
 }
 
@@ -268,7 +268,7 @@ a:hover, a:focus {
 
 @media (min-width: 480px) {
   .boxed .navbar-sticky {
-    max-width: 520px;
+    max-width: 51.5rem;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -342,7 +342,7 @@ a:hover, a:focus {
   margin: 0;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 31.5rem) {
   .sectionTitle h2 {
     font-size: 30px;
     letter-spacing: 0px;
@@ -485,7 +485,7 @@ a:hover, a:focus {
 }
 
 .sidebar {
-  padding-left: 15px;
+  padding-left: 1.4rem;
   margin-top: 40px;
 }
 
@@ -505,13 +505,13 @@ a:hover, a:focus {
 
 @media (min-width: 768px) {
   .sidebar.sidebar-left {
-    padding-left: 15px;
+    padding-left: 1.4rem;
   }
 }
 
 @media (min-width: 992px) {
   .sidebar.sidebar-left {
-    padding-left: 15px;
+    padding-left: 1.4rem;
   }
 }
 
@@ -549,7 +549,7 @@ a:hover, a:focus {
 
 .hover-overlay a.overlay_icon i.fab {
   text-align: center !important;
-  font-size: 20px;
+  font-size: 1.5rem;
   line-height: 50px;
   color: #23479B;
 }
@@ -621,13 +621,13 @@ a:hover, a:focus {
 
 .img_overlay-container .img_overlay-desc {
   color: rgba(255, 255, 255, 0.7);
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .img_overlay-container a.icon {
   width: 38px;
   height: 38px;
-  font-size: 15px;
+  font-size: 1.4rem;
   line-height: 36px;
   background-color: transparent;
   text-align: center;
@@ -671,7 +671,7 @@ a:hover, a:focus {
 }
 
 .bredcrumb .pager.middle li {
-  padding: 20px 5px;
+  padding: 1.5rem 5px;
   position: relative;
   text-transform: capitalize;
   color: #222222;
@@ -681,7 +681,7 @@ a:hover, a:focus {
 .bredcrumb .pager.middle li:after {
   content: "\f105";
   right: -8px;
-  top: 20px;
+  top: 1.5rem;
 }
 
 .bredcrumb .pager.middle a {
@@ -692,8 +692,8 @@ a:hover, a:focus {
 @-webkit-keyframes customFadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
+    -webkit-transform: translateY(1.5rem);
+    transform: translateY(1.5rem);
   }
   100% {
     opacity: 1;
@@ -705,8 +705,8 @@ a:hover, a:focus {
 @keyframes customFadeInUp {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(20px);
-    transform: translateY(20px);
+    -webkit-transform: translateY(1.5rem);
+    transform: translateY(1.5rem);
   }
   100% {
     opacity: 1;
@@ -870,7 +870,7 @@ a:hover, a:focus {
 hr.hr_narrow {
   width: 7%;
   height: 2px;
-  height: 20px 0;
+  height: 1.5rem 0;
 }
 
 .hr_color, .hr_color hr {
@@ -886,7 +886,7 @@ hr.hr-inline {
 --> Elements footer style
 ================================================== */
 .footer.element-footer .copyright p {
-  color: #848484;
+  color: #555555;
 }
 
 /* ================================================
@@ -914,7 +914,7 @@ hr.hr-inline {
 
 .card.card-accordion .card-header a {
   display: block;
-  padding: 15px 20px;
+  padding: 1.4rem 1.5rem;
   line-height: 24px;
   background-color: #0074BB;
   color: #ffffff;
@@ -929,10 +929,10 @@ hr.hr-inline {
   content: '\f106';
   line-height: 1;
   width: 22px;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   position: absolute;
-  right: 15px;
+  right: 1.4rem;
 }
 
 .card.card-accordion .card-header a.collapsed {
@@ -952,8 +952,8 @@ hr.hr-inline {
 .card.card-accordion .card-block {
   border: 1px solid #e5e5e5;
   border-top: 0px;
-  padding: 30px 20px;
-  font-size: 15px;
+  padding: 30px 1.5rem;
+  font-size: 1.4rem;
   line-height: 26px;
 }
 
@@ -965,7 +965,7 @@ hr.hr-inline {
 
 .icon-left.card.card-accordion .card-header a {
   display: block;
-  padding: 15px 20px;
+  padding: 1.4rem 1.5rem;
   line-height: 24px;
   padding-left: 50px;
   border-radius: 2px;
@@ -985,10 +985,10 @@ hr.hr-inline {
   line-height: 1;
   width: 22px;
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   position: absolute;
-  left: 15px;
+  left: 1.4rem;
 }
 
 .icon-left.card.card-accordion .card-header a.collapsed {
@@ -1016,8 +1016,8 @@ hr.hr-inline {
   border: none;
   border-radius: 0px;
   height: 40px;
-  padding: 0 20px;
-  font-size: 16px;
+  padding: 0 1.5rem;
+  font-size: 1rem;
   line-height: 40px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1028,7 +1028,7 @@ hr.hr-inline {
 
 @media (min-width: 992px) {
   .btn {
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 
@@ -1109,7 +1109,7 @@ hr.hr-inline {
 }
 
 .btn-light {
-  color: #848484;
+  color: #555555;
 }
 
 .btn-inverse {
@@ -1212,7 +1212,7 @@ hr.hr-inline {
 .btn.btn-mid {
   height: 40px;
   line-height: 40px;
-  padding: 0 20px;
+  padding: 0 1.5rem;
 }
 
 .btn.btn-lg {
@@ -1243,7 +1243,7 @@ hr.hr-inline {
 }
 
 .btn-social {
-  font-size: 16px;
+  font-size: 1rem;
   width: 35px;
   height: 35px;
   text-align: center;
@@ -1271,7 +1271,7 @@ hr.hr-inline {
   width: auto;
   height: 35px;
   border-radius: 0px;
-  padding: 0 20px;
+  padding: 0 1.5rem;
   line-height: 35px;
 }
 
@@ -1426,9 +1426,9 @@ hr.hr-inline {
   width: 45px;
   position: relative;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1rem;
   background: transparent;
-  color: #848484;
+  color: #555555;
   line-height: 44px;
   border-radius: 50%;
   border: 1px solid rgba(132, 132, 132, 0.5);
@@ -1445,7 +1445,7 @@ hr.hr-inline {
   .socialLink a {
     height: 30px;
     width: 30px;
-    font-size: 14px;
+    font-size: 1.2rem;
     line-height: 30px;
   }
 }
@@ -1454,7 +1454,7 @@ hr.hr-inline {
   .socialLink a {
     height: 45px;
     width: 45px;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 44px;
   }
 }
@@ -1611,7 +1611,7 @@ hr.hr-inline {
 .divider-center .divider-icon {
   left: auto;
   right: auto;
-  margin-left: -20px;
+  margin-left: -1.5rem;
 }
 
 .divider-right {
@@ -1627,10 +1627,10 @@ hr.hr-inline {
   position: absolute;
   width: 40px;
   height: 40px;
-  top: -20px;
+  top: -1.5rem;
   display: inline-block;
   line-height: 40px;
-  font-size: 20px;
+  font-size: 1.5rem;
   color: #f5f5f5;
   text-align: center;
 }
@@ -1644,21 +1644,21 @@ hr.hr-inline {
 --> Elements Alert style
 ================================================== */
 .alert {
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
   border: 0px solid transparent;
   border-radius: 0;
-  font-size: 15px;
+  font-size: 1.4rem;
 }
 
 @media (min-width: 768px) {
   .alert {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 }
 
 .alert p {
-  color: #848484;
+  color: #555555;
 }
 
 .alert a.alert-link {
@@ -1691,7 +1691,7 @@ hr.hr-inline {
 }
 
 .iconic-alert .alert {
-  padding: 10px 20px;
+  padding: 10px 1.5rem;
 }
 
 .iconic-alert i {
@@ -1700,7 +1700,7 @@ hr.hr-inline {
   display: inline-block;
   text-align: center;
   color: #ffffff;
-  font-size: 15px;
+  font-size: 1.4rem;
   border-radius: 50%;
   line-height: 40px;
   margin-right: 10px;
@@ -1725,7 +1725,7 @@ hr.hr-inline {
 .alert-dismissible .close {
   position: relative;
   right: -1.25rem;
-  padding: 18px 20px;
+  padding: 1.1rem 1.5rem;
   color: inherit;
   font-size: 25px;
   opacity: 0.8;
@@ -1738,7 +1738,7 @@ hr.hr-inline {
   position: relative;
   text-align: center;
   border: 1px solid #e5e5e5;
-  padding: 60px 20px 30px;
+  padding: 60px 1.5rem 30px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -1775,12 +1775,12 @@ hr.hr-inline {
 ================================================== */
 .display-single_element.element_badge p {
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 1.1rem;
   margin-top: 0px;
 }
 
 .display-single_element.element_badge h1, .display-single_element.element_badge h2, .display-single_element.element_badge h3, .display-single_element.element_badge h4, .display-single_element.element_badge h5 {
-  margin: 0 0 15px;
+  margin: 0 0 1.4rem;
 }
 
 .display-single_element.element_badge h1 {
@@ -1795,7 +1795,7 @@ hr.hr-inline {
 
 .display-single_element.element_badge .btn {
   text-transform: capitalize;
-  margin-right: 15px;
+  margin-right: 1.4rem;
 }
 
 .btn .badge {
@@ -1852,7 +1852,9 @@ hr.hr-inline {
 
 .bg-gray-lineargradient {
   background-repeat: repeat-x;
-  background-image: linear-gradient(180deg, #fff, #dbdbdb);
+  background-image: 
+  linear-gradient(180deg, rgb(237, 235, 245), 
+  #b8b2e4);
 }
 
 .bg-green-lineargradient {
@@ -1937,10 +1939,10 @@ hr.hr-inline {
 ================================================== */
 .list-group-item {
   border-radius: 0px !important;
-  font-size: 15px;
+  font-size: 1.4rem;
   display: inline-block;
-  padding: 15px 20px;
-  color: #848484;
+  padding: 1.4rem 1.5rem;
+  color: #555555;
   border: 0px;
   margin: 0px;
   border-top: 1px solid rgba(132, 132, 132, 0.25);
@@ -1970,14 +1972,14 @@ hr.hr-inline {
 }
 
 .list-group-item i {
-  font-size: 14px;
+  font-size: 1.2rem;
   margin-right: 8px;
 }
 
 .list-group-item .badge {
-  color: #848484;
+  color: #555555;
   float: right;
-  font-size: 15px;
+  font-size: 1.4rem;
   font-weight: 400;
   transition: color 0.3s ease;
 }
@@ -1988,7 +1990,7 @@ hr.hr-inline {
 
 .no-border .list-group-item {
   border: none;
-  padding: 0px 0 20px;
+  padding: 0px 0 1.5rem;
 }
 
 .list-group-item-primary {
@@ -2052,7 +2054,7 @@ hr.hr-inline {
 .icon-sm {
   width: 30px;
   height: 30px;
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 30px;
 }
 
@@ -2071,7 +2073,7 @@ hr.hr-inline {
 .icon-v2.icon-sm {
   width: 40px;
   height: 40px;
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 40px;
 }
 
@@ -2089,7 +2091,7 @@ hr.hr-inline {
 .icon-v3.icon-sm {
   width: 40px;
   height: 40px;
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 40px;
 }
 
@@ -2110,7 +2112,7 @@ hr.hr-inline {
 .icon-v4.icon-sm {
   width: 50px;
   height: 50px;
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 40px;
 }
 
@@ -2187,9 +2189,9 @@ card
 }
 
 .card .card-title {
-  color: #848484 !important;
+  color: #555555 !important;
   margin: 0px;
-  padding: 15px 0 10px;
+  padding: 1rem 0 10px;
   transition: all 0.3s ease;
 }
 
@@ -2198,16 +2200,16 @@ card
 }
 
 .card .card-block {
-  color: #848484 !important;
+  color: #555555 !important;
   padding: 10px 0 0;
 }
 
 .card .card-block p.card-text {
-  padding: 15px 0px;
+  padding: 1.4rem 0px;
 }
 
 .card.img-mid .card_img {
-  padding: 20px 0 20px;
+  padding: 1.5rem 0 1.5rem;
 }
 
 .card.img-mid .card-title {
@@ -2219,7 +2221,7 @@ card
 }
 
 .card.img-mid .card-block p.card-text {
-  padding: 0px 0px 15px;
+  padding: 0px 0px 1.4rem;
 }
 
 .card.img-bottom .card_img {
@@ -2295,7 +2297,7 @@ card
 }
 
 .card .card-ribbon.card-ribbon-top {
-  top: 20px;
+  top: 1.5rem;
 }
 
 .card .card-ribbon.card-ribbon-top.card-ribbon-left {
@@ -2309,7 +2311,7 @@ card
 }
 
 .card .card-ribbon.card-ribbon-bottom {
-  bottom: 20px;
+  bottom: 1.5rem;
 }
 
 .card .card-ribbon.card-ribbon-bottom.card-ribbon-left {
@@ -2332,14 +2334,14 @@ card
 
 .date-holder {
   position: absolute;
-  top: 15px;
-  font-size: 14px;
+  top: 1.4rem;
+  font-size: 1.2rem;
   color: #fff;
   width: 65px;
   height: 65px;
   text-align: center;
   padding-top: 13px;
-  left: 15px;
+  left: 1.4rem;
 }
 
 .date-holder span {
@@ -2354,9 +2356,9 @@ card
   width: 0;
   height: 0;
   border-top: 0px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 15px solid #0074BB;
-  bottom: -20px;
+  border-bottom: 1.5rem solid transparent;
+  border-left: 1.4rem solid #0074BB;
+  bottom: -1.5rem;
   left: 0;
 }
 
@@ -2389,7 +2391,7 @@ card
 
 .card.card-accordion .card-header a {
   display: block;
-  padding: 15px 20px;
+  padding: 1.4rem 1.5rem;
   line-height: 24px;
   background-color: #0074BB;
   color: #ffffff;
@@ -2404,10 +2406,10 @@ card
   content: '\f106';
   line-height: 1;
   width: 22px;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   position: absolute;
-  right: 15px;
+  right: 1.4rem;
 }
 
 .card.card-accordion .card-header a.collapsed {
@@ -2427,8 +2429,8 @@ card
 .card.card-accordion .card-block {
   border: 1px solid #e5e5e5;
   border-top: 0px;
-  padding: 30px 20px;
-  font-size: 15px;
+  padding: 30px 1.5rem;
+  font-size: 1.4rem;
   line-height: 26px;
 }
 
@@ -2440,7 +2442,7 @@ card
 
 .icon-left.card.card-accordion .card-header a {
   display: block;
-  padding: 15px 20px;
+  padding: 1.4rem 1.5rem;
   line-height: 24px;
   padding-left: 50px;
   border-radius: 2px;
@@ -2460,10 +2462,10 @@ card
   line-height: 1;
   width: 22px;
   margin-right: 10px;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
   position: absolute;
-  left: 15px;
+  left: 1.4rem;
 }
 
 .icon-left.card.card-accordion .card-header a.collapsed {
@@ -2499,7 +2501,7 @@ card
 }
 
 .count-down .table-cell {
-  margin: 15px 15px 0 0;
+  margin: 1.4rem 1.4rem 0 0;
   display: inline-block !important;
   text-align: center;
 }
@@ -2534,7 +2536,7 @@ card
   display: block !important;
   margin-top: -50px;
   line-height: 22px;
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: capitalize;
   color: #222222;
 }
@@ -2579,7 +2581,7 @@ card
 .fun-text {
   position: relative;
   display: block;
-  margin-top: 15px;
+  margin-top: 1.4rem;
 }
 
 @media (min-width: 768px) {
@@ -2603,12 +2605,12 @@ card
   font-size: 50px;
   color: #222222;
   font-weight: 400;
-  padding: 20px 0;
+  padding: 1.5rem 0;
   display: inline-block;
 }
 
 .fun-text p {
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 22px;
   color: #222222;
 }
@@ -2696,15 +2698,15 @@ card
 }
 
 .carousel-caption p {
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #ffffff;
-  padding: 20px 0 25px;
+  padding: 1.5rem 0 25px;
   line-height: 24px;
 }
 
 @media (min-width: 768px) {
   .carousel-caption p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 26px;
     padding: 25px 0 30px;
   }
@@ -2722,8 +2724,8 @@ card
 }
 
 .b-carousel-v1 .carousel-indicators li {
-  max-width: 20px;
-  height: 20px;
+  max-width: 1.5rem;
+  height: 1.5rem;
   border: 2px solid rgba(255, 255, 255, 0.7);
   border-radius: 50%;
   background: transparent;
@@ -2765,8 +2767,8 @@ card
 }
 
 .b-carousel-v1 .carousel-indicators.right_indicators li {
-  width: 20px;
-  height: 20px;
+  width: 1.5rem;
+  height: 1.5rem;
   margin: 3px 0;
 }
 
@@ -2800,11 +2802,11 @@ card
 }
 
 .b-carousel-v1 .carousel-control .icon-prev {
-  left: 15px;
+  left: 1.4rem;
 }
 
 .b-carousel-v1 .carousel-control .icon-next {
-  right: 15px;
+  right: 1.4rem;
 }
 
 .carousel:hover .carousel-control {
@@ -2819,7 +2821,7 @@ card
 
 .testimonial-carousel .carousel-indicators {
   bottom: -30px;
-  left: -20px;
+  left: -1.5rem;
 }
 
 .testimonial-carousel .carousel-indicators li {
@@ -2884,7 +2886,7 @@ button.slick-arrow {
 
 .slick-prev:before, .slick-next:before {
   font-family: 'FontAwesome';
-  font-size: 14px;
+  font-size: 1.2rem;
   line-height: 1;
   opacity: 1;
   color: white;
@@ -3005,19 +3007,19 @@ button.slick-arrow {
 }
 
 .image_carousel .element_row {
-  margin: 0 -15px;
+  margin: 0 -1.4rem;
 }
 
 .image_carousel .element_row .image_single {
-  padding: 0 15px;
+  padding: 0 1.4rem;
 }
 
 .product-carousel .element_row {
-  margin: 0 -15px;
+  margin: 0 -1.4rem;
 }
 
 .product-carousel .element_row .card {
-  padding: 0 15px;
+  padding: 0 1.4rem;
   margin-bottom: 30px;
 }
 
@@ -3067,7 +3069,7 @@ button.slick-arrow {
 
 .testimonial-area .bg-image .card {
   background-color: transparent;
-  padding: 50px 15px;
+  padding: 50px 1.4rem;
 }
 
 @media (min-width: 768px) {
@@ -3089,27 +3091,27 @@ button.slick-arrow {
 }
 
 .testimonial-area .bg-image .card-block p {
-  padding: 20px 0;
+  padding: 1.5rem 0;
   color: #ffffff;
   opacity: 0.7;
 }
 
 @media (min-width: 768px) {
   .testimonial-area .bg-image .card-block p {
-    font-size: 14px;
-    padding: 15px 10px;
+    font-size: 1.2rem;
+    padding: 1.4rem 10px;
   }
 }
 
 @media (min-width: 992px) {
   .testimonial-area .bg-image .card-block p {
-    font-size: 15px;
-    padding: 20px 0px;
+    font-size: 1.4rem;
+    padding: 1.5rem 0px;
   }
 }
 
 .testimonial-area .bg-image .card-block h4 {
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3140,6 +3142,15 @@ button.slick-arrow {
   background-color: rgba(10, 35, 59, 0.95);
 }
 
+/* CUSTOM CSS */
+.team-card {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+/* END CUSTOM CSS */
+
 .team-card .card_img {
   overflow: hidden;
   margin: 0 auto;
@@ -3158,18 +3169,19 @@ button.slick-arrow {
 }
 
 .team-card a.overlay_icon i.fab {
-  font-size: 15px;
+  font-size: 1.4rem;
   line-height: 40px;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .team-card a.overlay_icon:hover {
+  color: #23479B !important;
   background-color: #ffffff;
   border: 2px solid #ffffff;
 }
 
 .team-card a.overlay_icon:hover i.fab {
-  color: #0074BB;
+  color: #0074BB !important;
 }
 
 /*==============================================
@@ -3239,14 +3251,14 @@ button.slick-arrow {
 }
 
 .slider-caption .caption-content h1 {
-  font-size: 20px;
+  font-size: 1.5rem;
   color: #222222;
 }
 
 @media (min-width: 768px) {
   .slider-caption .caption-content h1 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -3273,33 +3285,33 @@ button.slick-arrow {
 
 @media (min-width: 768px) {
   .slider-caption .caption-content p {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 0 0 30px;
   }
 }
 
 @media (min-width: 992px) {
   .slider-caption .caption-content p {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 0 0 40px;
   }
 }
 
 @media (min-width: 1200px) {
   .slider-caption .caption-content p {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin: 0 0 50px;
   }
 }
 
 .slider-caption .caption-content.caption-right {
-  right: 15px;
+  right: 1.4rem;
   text-align: right;
 }
 
 .slider-caption .caption-content .video-link {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1.2rem;
   text-transform: uppercase;
 }
 
@@ -3313,7 +3325,7 @@ button.slick-arrow {
   height: 60px;
   width: 60px;
   line-height: 60px;
-  font-size: 20px;
+  font-size: 1.5rem;
   border-radius: 50%;
   display: inline-block;
   color: #0074BB;
@@ -3339,14 +3351,14 @@ button.slick-arrow {
   height: 30px;
   font-size: 9px;
   line-height: 30px;
-  padding: 0 18px;
+  padding: 0 1.1rem;
   font-weight: 700;
 }
 
 @media (min-width: 768px) {
   .slider-caption .caption-content a.btn {
     height: 50px;
-    font-size: 14px;
+    font-size: 1.2rem;
     line-height: 50px;
     padding: 0 40px;
   }
@@ -3381,12 +3393,12 @@ button.slick-arrow {
 .home-feature .feature_single {
   position: relative;
   background-color: transparent;
-  padding: 30px 15px;
+  padding: 30px 1.4rem;
 }
 
 @media (min-width: 768px) {
   .home-feature .feature_single {
-    padding: 70px 15px;
+    padding: 70px 1.4rem;
   }
 }
 
@@ -3404,14 +3416,14 @@ button.slick-arrow {
 
 @media (min-width: 768px) {
   .home-feature .feature_single h4 {
-    font-size: 18px;
-    padding: 20px 0px;
+    font-size: 1.1rem;
+    padding: 1.5rem 0px;
   }
 }
 
 @media (min-width: 992px) {
   .home-feature .feature_single h4 {
-    font-size: 20px;
+    font-size: 1.5rem;
     padding: 25px 0px;
   }
 }
@@ -3431,7 +3443,7 @@ button.slick-arrow {
 
 @media (min-width: 992px) {
   .home-feature .feature_single p {
-    font-size: 15px;
+    font-size: 1.4rem;
     line-height: 26px;
   }
 }
@@ -3459,82 +3471,55 @@ button.slick-arrow {
   }
 }
 
-.more-feature-left .feature-icon {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  border: 1px solid #e5e5e5;
-  border-radius: 50%;
-  line-height: 80px;
-  text-align: center;
-  position: relative;
-  margin-bottom: 0px;
-  font-size: 20px;
-  color: #23479B;
-}
-
-@media (min-width: 768px) {
-  .more-feature-left .feature-icon {
-    position: absolute;
-    margin-bottom: 0;
-  }
-}
-
 .more-feature-left .feature-details {
   display: inline-block;
 }
 
 @media (min-width: 768px) {
   .more-feature-left .feature-details {
-    padding-left: 100px;
+    padding-left: 0;
   }
 }
 
 .more-feature-left .feature-details h4 {
-  margin-bottom: 15px;
+  margin-bottom: 1.2rem;
   line-height: 1;
 }
 
 @media (min-width: 768px) {
   .more-feature-left .feature-details h4 {
-    font-size: 18px;
+    font-size: 1.1rem;
     margin-bottom: 10px;
   }
 }
 
 @media (min-width: 992px) {
   .more-feature-left .feature-details h4 {
-    font-size: 20px;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
   }
 }
 
 .more-feature-left .feature-details p {
-  color: #848484;
-  opacity: 0.7;
+  padding: 10px;
+  border-top: #bdbdbd 1px solid;
+  background-color: #f5f5f5;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25),
+  0 5px 5px rgba(0, 0, 0, 0.22);
 }
 
 @media (min-width: 768px) {
   .more-feature-left .feature-details p {
-    font-size: 13px;
+    font-size: 1rem;
     line-height: 24px;
   }
 }
 
 @media (min-width: 992px) {
   .more-feature-left .feature-details p {
-    font-size: 15px;
+    font-size: 1.4rem;
     line-height: 26px;
   }
-}
-
-.data-chart {
-  padding-left: 30px;
-  margin-top: 100px;
-}
-
-.data-chart h4 {
-  margin-bottom: 30px;
 }
 
 /*==============================================
@@ -3591,7 +3576,7 @@ button.slick-arrow {
 }
 
 .countup-section .single_block {
-  margin: 20px 0;
+  margin: 1.5rem 0;
 }
 
 @media (min-width: 768px) {
@@ -3609,8 +3594,8 @@ button.slick-arrow {
 --> 5.4 PORTFOLIO SECTION
 ================================================*/
 .portfolio-area {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
 @media (min-width: 992px) {
@@ -3625,7 +3610,7 @@ button.slick-arrow {
 }
 
 .portfolio-area .sectionTitle {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .portfolio-area .card {
@@ -3689,6 +3674,10 @@ button.slick-arrow {
 }
 
 .services-area .media-box {
+  padding: 10px;
+  background-color: #f5f5f5;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25),
+  0 5px 5px rgba(0, 0, 0, 0.22);
   margin-top: 50px;
 }
 
@@ -3752,7 +3741,7 @@ button.slick-arrow {
 
 .home-form input {
   background-color: transparent;
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #ffffff;
 }
 
@@ -3880,12 +3869,12 @@ button.slick-arrow {
 }
 
 #morphing-content .home-form .sbHolder > a:after {
-  right: 20px;
+  right: 1.5rem;
 }
 
 #morphing-content .home-form .btn {
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
   height: 58px;
   line-height: 58px;
@@ -3911,7 +3900,8 @@ button.slick-arrow {
 }
 
 .home-team .card-style2 .card-block {
-  padding: 15px 30px;
+  
+  padding: 1.4rem 30px;
 }
 
 .home-team .card-style2 span {
@@ -3934,6 +3924,11 @@ button.slick-arrow {
   padding-bottom: 80px;
 }
 
+.home-blog .card.card-style3:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+  0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 @media (min-width: 992px) {
   .home-blog {
     padding-top: 100px;
@@ -3945,12 +3940,14 @@ button.slick-arrow {
   margin-top: 50px;
 }
 
+
 @media (min-width: 768px) {
   .home-blog .card.card-style3 .card-block {
-    padding: 15px;
+    background: #f5f5f5;
+    padding: 1.2rem;
   }
   .home-blog .card.card-style3 .card-block .card-title {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   .home-blog .card.card-style3 .card-block:before {
     position: absolute;
@@ -3974,111 +3971,10 @@ button.slick-arrow {
   }
 }
 
-/*==============================================
---> 5.10 NEWSLETTER
-================================================*/
-.newsletter {
-  padding: 50px 0;
-}
-
-.newsletter h4 {
-  font-size: 24px;
-  line-height: 1.2;
-}
-
-@media (min-width: 768px) {
-  .newsletter h4 {
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width: 992px) {
-  .newsletter h4 {
-    margin-bottom: 0px;
-  }
-}
-
-.newsletter form {
-  margin-top: 30px;
-}
-
-@media (min-width: 768px) {
-  .newsletter form {
-    margin-top: 0px;
-  }
-}
-
-@media (min-width: 992px) {
-  .newsletter form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-
-.newsletter form .form-group {
-  margin-bottom: 30px;
-}
-
-@media (min-width: 992px) {
-  .newsletter form .form-group {
-    width: 38%;
-    margin-bottom: 0px;
-  }
-}
-
-.newsletter form input {
-  background-color: #ffffff;
-  font-size: 14px;
-  color: #222222;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  box-shadow: 2px 3px 9px rgba(44, 40, 86, 0.1);
-}
-
-.newsletter form input::-webkit-input-placeholder {
-  color: #848484;
-}
-
-.newsletter form input:-moz-placeholder {
-  color: #848484;
-}
-
-.newsletter form input::-moz-placeholder {
-  color: #848484;
-}
-
-.newsletter form input:-ms-input-placeholder {
-  color: #848484;
-}
-
-.newsletter form input:hover, .newsletter form input:active, .newsletter form input:focus {
-  background-color: #ffffff;
-}
-
-footer {
-  padding-top: 80px;
-}
-
-@media (min-width: 992px) {
-  footer {
-    padding-top: 100px;
-  }
-}
 
 /*======== Footer Classic version ========*/
 .footer .footer-text a .footer-logo {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 768px) {
@@ -4089,7 +3985,7 @@ footer {
 
 .footer .footer-text p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 768px) {
@@ -4101,7 +3997,7 @@ footer {
 
 @media (min-width: 992px) {
   .footer .footer-text p {
-    font-size: 14px;
+    font-size: 1.2rem;
     line-height: 26px;
   }
 }
@@ -4109,7 +4005,7 @@ footer {
 .footer h3 {
   color: #ffffff;
   margin-top: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 1.4rem;
 }
 
 @media (min-width: 768px) {
@@ -4119,14 +4015,14 @@ footer {
 }
 
 .footer .social-icons {
-  margin-top: 20px;
+  margin-top: 1.5rem;
   margin-left: -10px;
 }
 
 .footer .social-icons .btn-social-o {
   /* background-color: transparent !important; */
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 768px) {
@@ -4149,7 +4045,7 @@ footer {
 
 .footer .instagram ul {
   padding: 0 10px;
-  margin-top: 20px;
+  margin-top: 1.5rem;
 }
 
 .footer .instagram li {
@@ -4181,27 +4077,27 @@ footer {
   display: block;
   position: relative;
   color: #ffffff;
-  font-size: 1rem;
-  margin-top: 1.1rem;
+  font-size: 1.2rem;
+  margin-top: 1.1.2rem;
   padding-left: 0;
 }
 
 @media (min-width: 768px) {
   .links li a {
     font-size: .9rem;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
   }
 }
 
 @media (min-width: 992px) {
   .links li a {
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
   }
 }
 
 .links li a:hover {
-  color: #848484;
+  color: #555555;
 }
 
 .location ul {
@@ -4210,8 +4106,8 @@ footer {
 
 .location ul li {
   color: #ffffff;
-  margin-top: 15px;
-  font-size: 14px;
+  margin-top: 1.4rem;
+  font-size: 1.2rem;
   padding-left: 10px;
 }
 
@@ -4223,7 +4119,7 @@ footer {
 
 @media (min-width: 992px) {
   .location ul li {
-    font-size: 14px;
+    font-size: 1.2rem;
   }
 }
 
@@ -4256,7 +4152,7 @@ footer {
 }
 
 .copyright p {
-  padding-bottom: 20px;
+  padding-bottom: 1.5rem;
   color: #ffffff;
 }
 
@@ -4270,7 +4166,7 @@ footer {
 
 @media (min-width: 992px) {
   .newsletter {
-    padding-left: 15px;
+    padding-left: 1.4rem;
   }
 }
 
@@ -4281,10 +4177,10 @@ footer {
 
 .newsletter input {
   background-color: transparent;
-  font-size: 14px;
+  font-size: 1.2rem;
   color: #222222;
   margin-top: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 1.4rem;
 }
 
 .newsletter input:hover, .newsletter input:active, .newsletter input:focus {
@@ -4418,7 +4314,7 @@ ABOUT US PAGE STYLE
   line-height: 2;
   padding-bottom: 25px;
   color: #222222;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .about-details .data-chart {
@@ -4436,12 +4332,12 @@ ABOUT US PAGE STYLE
 }
 
 .page-contactus .sectionTitle {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .page-contactus .contact_sidebar .media-box {
   padding: 40px 30px;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .page-contactus .contact_sidebar .media-icon {
@@ -4515,7 +4411,7 @@ ABOUT US PAGE STYLE
 
 @media (min-width: 768px) {
   .page-error .error form .btn-search {
-    top: 16px;
+    top: 1rem;
   }
 }
 
@@ -4553,24 +4449,24 @@ ABOUT US PAGE STYLE
 }
 
 .page-comingsoon .form_subscribe input::-webkit-input-placeholder {
-  color: #848484;
+  color: #555555;
 }
 
 .page-comingsoon .form_subscribe input:-moz-placeholder {
-  color: #848484;
+  color: #555555;
 }
 
 .page-comingsoon .form_subscribe input::-moz-placeholder {
-  color: #848484;
+  color: #555555;
 }
 
 .page-comingsoon .form_subscribe input:-ms-input-placeholder {
-  color: #848484;
+  color: #555555;
 }
 
 .page-comingsoon .comingsoon h1 {
   margin-top: 100px;
-  margin-bottom: 15px;
+  margin-bottom: 1.4rem;
 }
 
 .page-comingsoon .count-down {
@@ -4595,7 +4491,7 @@ ABOUT US PAGE STYLE
 
 .page-comingsoon .count-down .tab-metr {
   margin-top: -65px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #ffffff !important;
 }
 
@@ -4628,7 +4524,7 @@ SERVICES PAGE STYLE
 
 @media (min-width: 992px) {
   .services .service-testimonial .bg-image .card {
-    padding: 15px 40px;
+    padding: 1.4rem 40px;
   }
 }
 
@@ -4681,7 +4577,7 @@ SERVICES PAGE STYLE
 }
 
 .services2 .more-feature-left .more-features .feature-details h3 {
-  margin-bottom: 15px;
+  margin-bottom: 1.4rem;
 }
 
 .services2 .more-feature-left .more-features .overlay-box {
@@ -4691,7 +4587,7 @@ SERVICES PAGE STYLE
   width: 100%;
   min-height: 100%;
   padding: 30px 30px;
-  color: #848484;
+  color: #555555;
   background: #ffffff;
   border: 2px solid #0074BB;
   z-index: 1;
@@ -4783,11 +4679,11 @@ SERVICES PAGE STYLE
 }
 
 .sidebar .list-group .list-group-item a {
-  font-size: 14px;
+  font-size: 1.2rem;
   font-weight: 600;
   position: relative;
   color: #222222;
-  padding-left: 20px;
+  padding-left: 1.5rem;
 }
 
 .sidebar .list-group .list-group-item a:before {
@@ -4852,7 +4748,7 @@ PROJECTS PAGE STYLE
 .project_specification h2 {
   margin-top: 0px;
   color: #222222;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .project_specification p {
@@ -4861,7 +4757,7 @@ PROJECTS PAGE STYLE
 }
 
 .project_specification .row {
-  margin-top: 15px;
+  margin-top: 1.4rem;
 }
 
 .project_specification.style3 h2 {
@@ -4884,7 +4780,7 @@ PROJECTS PAGE STYLE
 }
 
 .bg-image .project_specification .row {
-  margin-top: 15px;
+  margin-top: 1.4rem;
 }
 
 .page-team .bredcrumb, .page-member-details .bredcrumb {
@@ -4930,7 +4826,7 @@ PROJECTS PAGE STYLE
 
 .member_desc li i {
   color: #0074BB;
-  font-size: 14px;
+  font-size: 1.2rem;
 }
 
 .member_desc h4 {
@@ -4942,7 +4838,7 @@ PROJECTS PAGE STYLE
 }
 
 .media-box {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 @media (min-width: 992px) {
@@ -4964,7 +4860,7 @@ PROJECTS PAGE STYLE
   width: 30px;
   text-align: center;
   float: left;
-  margin-right: 15px;
+  margin-right: 1.4rem;
 }
 
 .member_contact .media-content {
@@ -4973,7 +4869,7 @@ PROJECTS PAGE STYLE
 }
 
 .member_contact .media-content h5 {
-  font-size: 15px;
+  font-size: 1.4rem;
 }
 
 .member_contact .media-content h5, .member_contact .media-content a {
@@ -5035,7 +4931,7 @@ PROJECTS PAGE STYLE
 }
 
 .blog-sidebar {
-  padding-left: 15px;
+  padding-left: 1.4rem;
 }
 
 .blog-sidebar h4 {
@@ -5050,7 +4946,7 @@ PROJECTS PAGE STYLE
   margin-top: 30px;
   border-bottom: 1px solid;
   border-color: #e5e5e5;
-  padding-bottom: 20px;
+  padding-bottom: 1.5rem;
 }
 
 .blog-sidebar .media-box .media-icon {
@@ -5065,18 +4961,18 @@ PROJECTS PAGE STYLE
 }
 
 .blog-sidebar .media-box .media-content h6 {
-  font-size: 15px;
+  font-size: 1.4rem;
   margin-bottom: 3px;
 }
 
 .blog-sidebar .tags {
-  margin-top: 20px;
+  margin-top: 1.5rem;
 }
 
 .blog-sidebar .tags .btn {
   margin-top: 10px;
   margin-right: 10px;
-  color: #848484;
+  color: #555555;
   text-transform: capitalize;
 }
 
@@ -5157,11 +5053,11 @@ PROJECTS PAGE STYLE
 }
 
 .blog-fullwidth .pagination {
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .blog-fullwidth .blog-sidebar .media-box {
-  margin-top: 20px;
+  margin-top: 1.5rem;
 }
 
 .blog-fullwidth .blog-sidebar .media-box .media-content h6 {
@@ -5253,7 +5149,7 @@ PROJECTS PAGE STYLE
 .social-share ul.social-icons li a.btn-social {
   font-size: 13px;
   line-height: 35px;
-  color: #848484;
+  color: #555555;
   border: 1px solid #e5e5e5;
 }
 
@@ -5270,7 +5166,7 @@ PROJECTS PAGE STYLE
 }
 
 .reply {
-  padding-top: 15px;
+  padding-top: 1.4rem;
 }
 
 .comment_img, .reply_img {
@@ -5302,7 +5198,7 @@ PROJECTS PAGE STYLE
 }
 
 .reply .reply_img {
-  margin-left: -15px;
+  margin-left: -1.4rem;
 }
 
 @media (min-width: 768px) {
@@ -5340,13 +5236,13 @@ PROJECTS PAGE STYLE
 }
 
 .comment_title p, .reply_title p {
-  padding: 15px 0 10px;
-  color: #848484;
+  padding: 1.4rem 0 10px;
+  color: #555555;
 }
 
 .comment_title .btn, .reply_title .btn {
   color: #0074BB;
-  font-size: 14px;
+  font-size: 1.2rem;
   padding: 0px;
   font-weight: 700;
   height: auto;
@@ -5383,16 +5279,16 @@ PROJECTS PAGE STYLE
 
 .community-edition {
   background: #fff;
-  padding: 40px 15px;
+  padding: 40px 1.4rem;
   border: 1px solid #ececec;
   box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
   -webkit-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
   -moz-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
   -o-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
   -ms-box-shadow: 2px 2px 5px 0 rgba(55, 50, 40, .20);
-  transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -webkit-transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
 }
 
 .community-edition:hover {
@@ -5414,20 +5310,20 @@ PROJECTS PAGE STYLE
 
 .community-edition i .fas {
   color: #23479B !important;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
 
 .community-edition h4 {
-  font-size: 18px;
+  font-size: 1.1rem;
   color: #000;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-top: 15px;
+  margin-top: 1.4rem;
 }
 
 .community-edition p {
-  font-size: 16px;
+  font-size: 1rem;
   text-align: justify;
   color: #777777;
 }
@@ -5445,7 +5341,7 @@ PROJECTS PAGE STYLE
 .scrollup {
   border-radius: 50%;
   position: fixed;
-  bottom: 20px;
+  bottom: 1.5rem;
   right: 25px;
   color: #fff;
   cursor: pointer;

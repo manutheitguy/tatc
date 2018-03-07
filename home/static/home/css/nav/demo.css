@@ -43,7 +43,7 @@ section {
     width: 100%;
     display: block;
     min-height: 85px;
-    padding: 19px 0px 15px 0px;
+    padding: 19px 0px 1.2rem 0px;
     background: url(../../images/bglight.png);
     box-shadow: 0 0 20px rgba(0, 0, 0, .3);
     position: fixed;
@@ -72,14 +72,14 @@ section {
     border: solid 0px;
     padding-top: 25px;
     padding-bottom: 10px;
-    font-size: 15px;
+    font-size: 1.2rem;
 }
 
 .buttoncolor {
     color: #fff;
     display: block;
     font-size: 13px;
-    padding: 10px 15px;
+    padding: 10px 1.2rem;
     text-decoration: none;
     transition: background 0.3s linear 0s;
     width: 12.5%;
@@ -101,7 +101,7 @@ section {
 
 .headertlt {
     width: 100%;
-    padding: 40px 0px 15px 0px;
+    padding: 40px 0px 1.2rem 0px;
     letter-spacing: -0.5px;
     font-size: 22px;
     font-family: 'archivo_narrowregular';
@@ -129,10 +129,10 @@ section {
 .buttoncolor02 {
     color: #424242;
     display: block;
-    font-size: 15px;
+    font-size: 1.2rem;
     border-radius: 2px;
     height: 30px;
-    padding: 10px 15px;
+    padding: 10px 1.2rem;
     text-decoration: none;
     transition: background 0.3s linear 0s;
     width: 100%;

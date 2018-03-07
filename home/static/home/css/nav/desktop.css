@@ -57,7 +57,7 @@
 
 .wsmenu-list>li>a .fas {
     display: inline-block;
-    font-size: 10px;
+    font-size: .8rem;
     line-height: inherit;
     margin-right: 4px;
 }
@@ -104,7 +104,7 @@
 
 .megamenu iframe {
     width: 100%;
-    margin-top: 10px;
+    margin-top: .8rem;
     min-height: 200px;
 }
 
@@ -198,12 +198,12 @@
 }
 
 .mrgtop {
-    margin-top: 15px;
+    margin-top: 1.4rem;
 }
 
 .show-grid div {
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: .8rem;
+    padding-top: .8rem;
     background-color: #dbdbdb;
     border: 1px solid #e7e7e7;
     color: #6a6a6a;
@@ -343,7 +343,7 @@
     line-height: 22px;
     padding: 6px 12px;
     text-transform: none;
-    font-size: 13px;
+    font-size: 1.2rem;
     letter-spacing: normal;
     border-right: 0px solid;
 }

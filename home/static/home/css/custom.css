@@ -430,8 +430,9 @@ a:hover, a:focus {
 }
 
 .bordered {
-  border-top: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  background: rgba(204, 204, 204, 0.6);
+  border-top: 1px solid rgb(180, 180, 180);
+  border-bottom: 1px solid rgb(180, 180, 180);
 }
 
 .mb30 {
@@ -3936,7 +3937,7 @@ button.slick-arrow {
   padding-bottom: 80px;
 }
 
-.home-blog .card.card-style3:hover {
+.home-blog .card.card-style3 {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
   0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -5279,7 +5280,7 @@ PROJECTS PAGE STYLE
 ######################################################################
 */
 
-.portfolio {
+/* .portfolio {
   background: url(../images/bg.png) no-repeat top center fixed;
   background-size: cover;
   -webkit-background-size: cover;
@@ -5287,7 +5288,7 @@ PROJECTS PAGE STYLE
   -ms-background-size: cover;
   width: 100%;
   overflow: hidden;
-}
+} */
 
 .community-edition {
   background: #fff;

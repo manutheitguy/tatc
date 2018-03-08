@@ -7,15 +7,33 @@
 <div class="container mt-5 mb-5 pt-5">
     <div class="article-detail mt-5">
         <div class="article">
-            <img class="img-fluid" src="{{ article.thumb.url }}" alt="">
-            <div class="pb-2">
-                <h2>{{ article.title }}</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="{{ article.thumb.url }}" alt="">
+                </div>
+                <div class="col-md-6 pt-4 bordered">
+                    <div class="pb-2">
+                        <h2>{{ article.title }}</h2>
+                    </div>
+                    <div class="p-2">
+                        <p>Author: {{ article.author }}</p>
+                    </div>
+                    <div class="p-2">
+                        <p>Published on: {{ article.date }}</p>
+                    </div>
+                    <div class="p-2">
+                        <p>Summary: {{ article.snippet }}</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>{{ article.body }}</p>
-            </div>
-            <div>
-                <p>{{ article.date }}</p>
+            <div class="row">
+                <div class="col-md-12 mt-5 bordered">
+                    
+                    <div class="p-5">
+                        <p>{{ article.body }}</p>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>

@@ -145,9 +145,20 @@ box1 {
 
 p.lead {
   padding-top: 1rem !important;
-  font-size: 1.3rem !important;
+  font-size: 1.4rem !important;
 }
 
 .articles h1 {
+  color: rgb(184, 184, 184) !important;
   text-shadow: 2px 2px rgb(110, 110, 110);
 }
+/* 
+.articles .summary {
+  padding: 1.5rem !important;
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.articles p {
+  line-height: 1.5rem !important;
+  padding: 1rem !important;
+} */

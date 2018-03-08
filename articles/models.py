@@ -9,10 +9,10 @@ class Article(models.Model):
     body = models.TextField()
     date = models.DateField(auto_now_add=True)
     thumb = models.ImageField(default='default.png', blank=True)
-    # author
+    author = models.CharField(max_length=100, default='Emmanuel Makonde')
 
     def __str__(self):
         return self.title
 
     def snippet(self):
-        return self.body[:250] + "..."
+        return self.body[:200] + "..."

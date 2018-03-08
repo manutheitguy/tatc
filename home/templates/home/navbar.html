@@ -1,9 +1,9 @@
 
 {% load static %}
 
-  <div class="wsmenucontainer clearfix">
-    <div id="overlapblackbg"></div>
-    <div class="wsmobileheader clearfix"> <a id="wsnavtoggle" class="animated-arrow"><span></span></a> <a class="smallogo"><img src="images/logo.png" width="120" alt="" /></a> <a class="callusicon" href="tel:123456789"><span class="fas fa-phone"></span></a> </div>
+<div class="wsmenucontainer clearfix">
+  <div id="overlapblackbg"></div>
+  <div class="wsmobileheader clearfix"> <a id="wsnavtoggle" class="animated-arrow"><span></span></a> <a class="smallogo"><img src="images/logo.png" width="120" alt="" /></a> <a class="callusicon" href="tel:123456789"><span class="fas fa-phone"></span></a> </div>
     <div class="header">
       <div class="wrapper clearfix bigmegamenu">
         <div class="logo clearfix img-fluid"><a href="index.html" title="Responsive Slide Menus"><img src="{% static 'home/images/logo1.png' %}" alt="" /></a></div>
@@ -14,29 +14,29 @@
           <ul class="mobile-sub wsmenu-list">
             <li {% if request.path == index %} class="active" {% endif %}><a class="text-white" href="{% url 'index' %}"><i class="fas fa-home"></i><span class="hometext">&nbsp;&nbsp;Home</span></a></li>
 
-            <li><a href="#" class="text-white">Imports </a>
+            <li><a href="{% url 'imports' %}" class="text-white">Imports </a>
               <div class="megamenu clearfix">
                 <div class="container-fluid">
                   <div class="row">
 
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <div  class="img-fluid pt-3">
-                        <a href="#"><img src="{% static 'home/images/i6.jpg' %}" alt="" /></a>
+                        <a href="{% url 'imports' %}"><img src="{% static 'home/images/i6.jpg' %}" alt="" /></a>
                       </div>
                     </ul>
 
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <li class="title">Equipment &amp; Machinery</li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Equipment &amp; Machinery</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Petroleum Products</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Construction Materials</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Medical Equipment</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Office Equipment</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Equipment &amp; Machinery</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Petroleum Products</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Construction Materials</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Medical Equipment</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Office Equipment</a></li>
                     </ul>
 
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <div class="img-fluid pt-3">
-                        <a href="#">
+                        <a href="{% url 'imports' %}">
                           <img src="{% static 'home/images/e4.jpg' %}" alt="" />
                         </a>
                       </div>
@@ -44,43 +44,42 @@
 
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <li class="title">Construction Materials </li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Cement</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Tiles</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Cement</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Cement</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Cement</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Cement</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Tiles</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Cement</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Cement</a></li>
+                      <li><a href="{% url 'imports' %}"><i class="fas fa-angle-right"></i> Cement</a></li>
                     </ul>
 
                     <ul class="col-lg-12 cta-ul">
                       <a href="{% url 'imports' %}"><li class="col-xs-12 cta-btn">LEARN MORE <i class="fas fa-angle-right"></i></li></a>
                     </ul>
 
-                    <li>
-                      <a href="#" class="text-white">Exports </a>
+                    <li><a href="{% url 'exports' %}" class="text-white">Exports</a>
                       <div class="megamenu clearfix">
                         <div class="container-fluid">
                           <div class="row">
                     
                             <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                               <div class="img-fluid pt-3">
-                                <a href="#">
+                                <a href="{% url 'exports' %}">
                                   <img src="{% static 'home/images/i6.jpg' %}" alt="" />
                                 </a>
                               </div>
                             </ul>
                     
                             <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
-                              <li class="title">Our Imports</li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Equipment & Machinery</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Petroleum Products</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Construction Materials</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Medical Equipment</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Office Equipment</a></li>
+                              <li class="title">Our Exports</li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Equipment & Machinery</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Petroleum Products</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Construction Materials</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Medical Equipment</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Office Equipment</a></li>
                             </ul>
                     
                             <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                               <div class="img-fluid pt-3">
-                                <a href="#">
+                                <a href="{% url 'exports' %}">
                                   <img src="{% static 'home/images/e4.jpg' %}" alt="" />
                                 </a>
                               </div>
@@ -88,15 +87,15 @@
                     
                             <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                               <li class="title">Our Exports</li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Livestock</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Meat &amp; Meat Products</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Premium Kenyan Tea</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Kenyan Coffee</a></li>
-                              <li><a href="#"><i class="fas fa-angle-right"></i> Pineapples</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Livestock</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Meat &amp; Meat Products</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Premium Kenyan Tea</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Kenyan Coffee</a></li>
+                              <li><a href="{% url 'exports' %}"><i class="fas fa-angle-right"></i> Pineapples</a></li>
                             </ul>
                     
                             <ul class="col-lg-12 cta-ul">
-                              <a href="{% url 'imports' %}">
+                              <a href="{% url 'exports' %}">
                                 <li class="col-xs-12 cta-btn">LEARN MORE
                                   <i class="fas fa-angle-right"></i>
                                 </li>
@@ -104,14 +103,14 @@
                             </ul>
 
                     
-              <li><a href="#" class="text-white">Logistics </a>
+              <li><a href="{% url 'logistics' %}" class="text-white">Logistics </a>
               <div class="megamenu clearfix">
                 <div class="container-fluid">
                   <div class="row">
 
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <div class="img-fluid pt-3">
-                        <a href="#">
+                        <a href="{% url 'logistics' %}">
                           <img src="{% static 'home/images/l2.jpg' %}" alt="" />
                         </a>
                       </div>
@@ -119,16 +118,16 @@
                     
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <li class="title">General Supplies</li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Cement</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Tiles</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Equipment</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Machinery</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Petroleum</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Cement</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Tiles</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Equipment</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Machinery</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Petroleum</a></li>
                     </ul>   
                     
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <div class="img-fluid pt-3">
-                        <a href="#">
+                        <a href="{% url 'logistics' %}">
                           <img src="{% static 'home/images/l2.jpg' %}" alt="" />
                         </a>
                       </div>
@@ -136,57 +135,57 @@
                     
                     <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                       <li class="title">Logistics</li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Our Tenets</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Our Purpose</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Our Commitment</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Our Scope</a></li>
-                      <li><a href="#"><i class="fas fa-angle-right"></i> Key Strategy</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Our Tenets</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Our Purpose</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Our Commitment</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Our Scope</a></li>
+                      <li><a href="{% url 'logistics' %}"><i class="fas fa-angle-right"></i> Key Strategy</a></li>
                     </ul>
                     
                     <ul class="col-lg-12 col-md-12 col-sm-12 cta-ul">
-                      <a href="{% url 'exports' %}"><li class="col-xs-12 cta-btn">LEARN MORE <i class="fas fa-angle-right"></i></li></a>
+                      <a href="{% url 'logistics' %}"><li class="col-xs-12 cta-btn">LEARN MORE <i class="fas fa-angle-right"></i></li></a>
                     </ul>
  
         <li>
-          <a href="#" class="text-white">IT Solutions </a>
+          <a href="{% url 'solutions' %}" class="text-white">IT Solutions </a>
           <div class="megamenu clearfix">
             <div class="container-fluid">
               <div class="row">
 
                 <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                   <li class="title">Software Solutions </li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Microsoft Windows</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Microsoft Server</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> iVend Retail Solution</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> PRTG Network Monitor</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Kaspersky Antivirus</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Microsoft Windows</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Microsoft Server</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> iVend Retail Solution</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> PRTG Network Monitor</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Kaspersky Antivirus</a></li>
                 </ul>
         
                 <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                   <li class="title">Hardware </li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Laptop Computers</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Desktop CPUs</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Desktop Monitors</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Printers</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Server Infrastructure</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Laptop Computers</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Desktop CPUs</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Desktop Monitors</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Printers</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Server Infrastructure</a></li>
                 </ul>
         
                 <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                   <li class="title">Software As a Service</li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Web Solutions</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Mobile Solutions</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Desktop Solutions</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Web Hosting</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Internet Marketing</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Web Solutions</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Mobile Solutions</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Desktop Solutions</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Web Hosting</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Internet Marketing</a></li>
                 </ul>
         
                 <ul class="col-lg-3 col-md-12 col-sm-12 link-list">
                   <li class="title">System Installation &amp; Setup</li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Server Configuration</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Network Configuration</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> CCTV Installation</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> Access Control Installation</a></li>
-                  <li><a href="#"><i class="fas fa-angle-right"></i> VOIP Setup &amp; Configuration</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Server Configuration</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Network Configuration</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> CCTV Installation</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> Access Control Installation</a></li>
+                  <li><a href="{% url 'solutions' %}"><i class="fas fa-angle-right"></i> VOIP Setup &amp; Configuration</a></li>
                 </ul>
         
                 <ul class="col-lg-12 col-md-12 col-sm-12 cta-ul">
@@ -200,15 +199,9 @@
 
          
 
-                <li>
-                  <a class="text-white" href="{% url 'about' %}">
-                    About Us 
-                  </a>
-                </li>
+                <li><a class="text-white" href="{% url 'about' %}">About Us</a></li>
 
-                <li><a class="text-white" href="{% url 'contact' %}">Contact Us </a>
-                  
-              </li>
+                <li><a class="text-white" href="{% url 'contact' %}">Contact Us</a></li>
             </ul>
           </nav>
 

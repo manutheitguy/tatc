@@ -15,15 +15,15 @@
                 <div class="col-md-5">
                     <img class="img-fluid" src="{{ article.thumb.url }}" alt="article thumbnail">
                 </div>
-                <div class="col-md-7  bg-gray-lineargradient">
-                <div class="pt-5 pb-5" >
+                <div class="col-md-7  bordered">
+                <div class="pt-4 pb-3 pl-2 pr-2" >
                     <h2><a class="text-dark" href="{% url 'articles:detail' slug=article.slug %}">{{ article.title }}</a></h2>
                 </div>
-                <div>
+                <div class="pl-2 pr-2 pb-4 pt-3">
                     <p>{{ article.snippet }}</p>
                 </div>
-                <div>
-                    <p>{{ article.date }}</p>
+                <div class="pl-2 pr-2 pb-4 pt-3">
+                    <p>Published on: {{ article.date }}</p>
                 </div>
                 </div>
             </div>

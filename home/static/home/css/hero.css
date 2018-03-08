@@ -39,7 +39,7 @@ body {
     min-width: 100%;
 }
 
-/* .header-overlay {
+.header-overlay {
     margin-top: 80px;
     height: 70vh;
     position: absolute;
@@ -48,9 +48,9 @@ body {
     width: 100vw;
     z-index: 1;
     background: #23479B;
-    opacity: 0.6;
+    opacity: 0.5;
     overflow: hidden;
-} */
+}
 
 .header-content {
     margin: 0 auto;

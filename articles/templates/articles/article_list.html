@@ -4,15 +4,19 @@
 {% block nav %}{% include 'home/navbar.html' %}{% endblock nav %}
 
 {% block content %}
-<div class="container mt-5 pt-5 mb-5">
-    <div class="articles mt-5">
+<div class="container mt-5 pt-5 pb-5">
+    <div class="articles pt-5">
+        <div class="text-dark text-center">
+            <h1>LATEST ARTICLES</h1>
+        </div>
+        
         {% for article in articles %}
-            <div class="article col-md-12 mt-5">
+            <div class="row article mt-5">
                 <div class="col-md-5">
                     <img class="img-fluid" src="{{ article.thumb.url }}" alt="article thumbnail">
                 </div>
-                <div class="col-md-7">
-                <div>
+                <div class="col-md-7  bg-gray-lineargradient">
+                <div class="pt-5 pb-5" >
                     <h2><a class="text-dark" href="{% url 'articles:detail' slug=article.slug %}">{{ article.title }}</a></h2>
                 </div>
                 <div>

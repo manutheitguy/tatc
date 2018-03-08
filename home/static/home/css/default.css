@@ -142,3 +142,12 @@ box1 {
   -moz-box-shadow: 0 20px 10px rgba(119, 119, 119, 0.7) !important;
   box-shadow: 0 20px 10px rgba(119, 119, 119, 0.7) !important;
 }
+
+p.lead {
+  padding-top: 1rem !important;
+  font-size: 1.3rem !important;
+}
+
+.articles h1 {
+  text-shadow: 2px 2px rgb(110, 110, 110);
+}
